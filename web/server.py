@@ -80,7 +80,7 @@ def delete_users():
     for esteUsuario in usuarios:
         session.delete(esteUsuario)
     session.commit()
-    return "Deleted Message"
+    return "Deleted User"
 
 
 if __name__ == '__main__':
